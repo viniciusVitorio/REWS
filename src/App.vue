@@ -1,17 +1,20 @@
 <template>
   <Header/>
   <NavBar/>
+  <Projects />
 </template>
 
 <script>
 import Header from './components/Header.vue';
 import NavBar from './components/NavBar.vue';
+import Projects from './components/Projects.vue';
 
 export default {
   name: 'App',
   components: {
     Header,
-    NavBar
+    NavBar,
+    Projects
   }
 }
 </script>
