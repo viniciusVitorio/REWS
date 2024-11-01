@@ -1,14 +1,17 @@
 <template>
   <Header/>
+  <NavBar/>
 </template>
 
 <script>
 import Header from './components/Header.vue';
+import NavBar from './components/NavBar.vue';
 
 export default {
   name: 'App',
   components: {
-    Header
+    Header,
+    NavBar
   }
 }
 </script>
